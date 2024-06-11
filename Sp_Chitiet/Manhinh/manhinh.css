@@ -1,0 +1,119 @@
+      .container {
+            width: 100%;
+            height: 600px;
+            border-bottom: 1px solid black;
+            position: relative;
+            background-color: rgb(222, 172, 248);
+
+            
+        }
+
+        img {
+            width: 600px;
+            height: 420px;
+            
+        }
+
+        .header {
+            width: 100%;
+            height: 45px;
+            position: absolute;
+            background-color: rgb(168, 82, 187);
+            align-content: center;
+        }
+
+        .container>.header a {
+
+            font-weight: bold;
+            color: white;
+            font-size: 25px;
+            padding-left: 1%;
+            text-decoration: none;
+        }
+
+        .container>.trai {
+            position: absolute;
+            height: 510px;
+            margin-top: 6%;
+            width: 40%;
+
+        }
+
+        .container>.phai {
+            position: absolute;
+            border-left:1px solid black ;
+            right: 0;
+            height: 600px;
+            padding-left: 10px;
+            padding-right: 50px;
+            width: 55%;
+            margin-top: 6%;
+
+        }
+
+        .container a:hover {
+            text-decoration: underline;
+        }
+
+        .phai #gia {
+            font-size: 35px;
+            font-weight: bold;
+            color: red;
+            padding-bottom: 20px;
+        }
+        #giohang{
+            margin-right: 10px;
+            right: 10px;
+        }
+        .phai del {
+            color: black;
+            padding-left: 12px;
+        }
+        table{
+            border-collapse: collapse;
+        }
+        .phai .button a {
+            min-height: 100px;
+            padding-left: 45px;
+            padding-right: 50px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            background-color: red;
+            font-size: 30px;
+            text-decoration: none;
+            color: white;
+        }
+
+        .phai p {
+            padding-top: 25px;
+            font-size: 25px;
+        }
+
+        table {
+            width: 50%;
+
+        }
+
+        th,
+        tr,
+        td {
+            padding: 15px;
+        }
+
+        .thongso {
+            text-align: left;
+
+        }
+        .thongso table {
+            width: 100%;
+        }
+
+        tbody tr:nth-child(2n+1) {
+
+            background-color: rgb(255, 255, 255);
+        }
+
+        tbody tr:nth-child(2n) {
+            background-color: rgb(169, 169, 169);
+
+        }
